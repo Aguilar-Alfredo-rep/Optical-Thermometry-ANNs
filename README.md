@@ -179,11 +179,11 @@ metadata configuration (.json) generated during training.
      to a CSV file named `predictions_temperatures.csv`.
 
 
-Note: For these prediction scripts to function correctly, the trained model .h5 and 
-its associated files (scaler_x.pkl, scaler_y.pkl, and metadata.json) must be located 
-inside the downloaded folder named resultados/, while the target files 
-(Espectros_rename/ or individual .csv spectra), the wavelengths.csv reference file, 
-and the architecture module (FF.py or CNN.py) must be located in the same root 
-directory as the script.
+Note: For these prediction scripts to function correctly (sections 5 and 6), the 
+trained model .h5 and its associated files (scaler_x.pkl, scaler_y.pkl, and 
+metadata.json) must be located inside the downloaded folder named resultados/, 
+while the target files (Espectros_rename/ or individual .csv spectra), the 
+wavelengths.csv reference file, and the architecture module (FF.py or CNN.py) 
+must be located in the same root directory as the script.
 
 ================================================================================
